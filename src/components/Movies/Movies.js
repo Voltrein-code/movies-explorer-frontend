@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Movies() {
-  return
+  return <div className="movies"></div>;
 }
