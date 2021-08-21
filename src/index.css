@@ -1,1 +1,15 @@
-@import url("./vendor/normalize.css");
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/fonts.css');
+
+#root {
+  color: white;
+  background-color: #202020;
+  background-size: cover;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+}

@@ -1,0 +1,92 @@
+.about-project {
+  margin: auto;
+  padding: 87px 0 110px 0;
+  width: 1140px;
+}
+
+.about-project__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 72px;
+  border-bottom: 1px solid white;
+}
+
+.project {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.project-article {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px 0 0;
+}
+
+.project-article__title {
+  width: 100%;
+  margin: 0 0 25px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+
+.project-article__text {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.project-deadlines {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.project-deadlines__period_backend {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 5);
+  align-items: center;
+}
+
+.project-deadlines__period_frontend {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% * 0.8);
+  align-items: center;
+}
+
+.project-deadlines__weeks {
+  background-color: #3DDC84;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  line-height: 36px;
+  width: 100%;
+  margin: 0 0 14px 0;
+}
+
+.project-deadlines__weeks_grey {
+  background-color: #303030;
+  color: white;
+}
+
+.project-deadlines__title {
+  margin: 0;
+  color: #8B8B8B;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}

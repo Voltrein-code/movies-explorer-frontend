@@ -1,8 +1,9 @@
 import React from "react";
 
+import "./Promo.css";
 import NavTab from "../NavTab/NavTab";
 
-export default function Promo() {
+export default function Promo(props) {
   return (
     <section className="promo">
       <h1 className="promo__title">
