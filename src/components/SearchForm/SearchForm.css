@@ -1,0 +1,38 @@
+.search__form-field {
+  width: 1140px;
+  border-bottom: 1px solid #424242;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0 15px 0;
+  margin-bottom: 29px;
+}
+
+.search__icon {
+  width: 34px;
+  height: 34px;
+}
+
+.search__form-input {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search__button {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  color: white;
+  border-radius: 48px;
+  background-color: #4285F4;
+  border-style: none;
+  padding: 8px 10.35px;
+  cursor: pointer;
+}

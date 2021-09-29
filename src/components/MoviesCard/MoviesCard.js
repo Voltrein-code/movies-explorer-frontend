@@ -1,5 +1,30 @@
 import React from "react";
 
-export default function MoviesCard() {
-  return <div className="movies-card"></div>;
+import "./MoviesCard.css";
+
+export default function MoviesCard(props) {
+  return (
+    <article className="movie">
+      <h2 className="movie__title">{props.title}</h2>
+      <p className="movie__duration">{props.duration}</p>
+      {props.moviesList === "all" ? (
+        <button
+          className={`movie__button movie__button_type_save ${
+            props.isMovieSaved ? "movie__button_type_saved" : ""
+          }`}
+          type="button"
+        />
+      ) : (
+        <button
+          className="movie__button movie__button_type_delete"
+          type="button"
+        />
+      )}
+      <img
+        alt="Кадр из фильма"
+        className="movie__image"
+        src={props.movieImage}
+      />
+    </article>
+  );
 }

@@ -1,5 +1,98 @@
 import React from "react";
 
-export default function MoviesCardList() {
-  return <div className="movies-cardlist"></div>;
+import "./MoviesCardList.css";
+
+import MoviesCard from "../MoviesCard/MoviesCard";
+
+import testMovieImage from "../../images/test-movie-image.png";
+
+export default function MoviesCardList(props) {
+  return (
+    <section className="movies-cardlist">
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={true}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={true}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={true}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+      <MoviesCard
+        title="33 слова о дизайне"
+        duration="1ч 47м"
+        isMovieSaved={false}
+        movieImage={testMovieImage}
+        moviesList={props.moviesList}
+      />
+    </section>
+  );
 }

@@ -20,7 +20,7 @@ export default function AboutMe() {
           <ul className="student__links">
             <li className="student__links-element">
               <a href="/" className="link student__link">
-                VK
+                Telegram
               </a>
             </li>
             <li className="student__links-element">

@@ -1,0 +1,67 @@
+.movie {
+  background-color: #222222;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 1fr 44px;
+  grid-template-rows: 1fr 1fr 203px;
+  grid-template-areas:
+    "title button"
+    "duration button"
+    "image image";
+  height: 100%;
+  width: 100%;
+}
+
+.movie__title {
+  grid-area: title;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0 0 0 14px;
+  align-self: center;
+}
+
+.movie__duration {
+  grid-area: duration;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #8B8B8B;
+  margin: 0 0 0 14px;
+  align-self: center;
+}
+
+.movie__button{
+  grid-area: button;
+  background-color: #313131;
+  width: 30px;
+  height: 30px;
+  border-radius: 36px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+.movie__button_type_save {
+  background-image: url(../../images/save-button.svg);
+}
+
+.movie__button_type_delete {
+  background-image: url(../../images/delete-button.svg);
+  background-size: 8px;
+}
+
+.movie__button_type_saved {
+  background-image: url(../../images/save-button-active.svg);
+  background-color: #3DDC84;
+}
+
+.movie__image {
+  grid-area: image;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
