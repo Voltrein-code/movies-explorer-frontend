@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router";
+import { Switch, Route, useLocation } from "react-router";
 import { Link } from "react-router-dom";
 
 import accountIcon from "../../images/account-icon.svg";
@@ -7,6 +7,8 @@ import accountIcon from "../../images/account-icon.svg";
 import "./HeaderMenu.css";
 
 export default function HeaderMenu() {
+  const location = useLocation();
+
   return (
     <nav className="header__menu">
       <Switch>
@@ -21,13 +23,19 @@ export default function HeaderMenu() {
         <Route path={["/movies", "/saved-movies"]}>
           <Link
             to="/movies"
-            className="header__button header__button_type_movies"
+            className={`header__button header__button_type_movies ${
+              location.pathname === "/movies" ? "header__button_selected" : ""
+            }`}
           >
             Фильмы
           </Link>
           <Link
             to="/saved-movies"
-            className="header__button header__button_type_saved-movies"
+            className={`header__button header__button_type_saved-movies ${
+              location.pathname === "/saved-movies"
+                ? "header__button_selected"
+                : ""
+            }`}
           >
             Сохраненные фильмы
           </Link>

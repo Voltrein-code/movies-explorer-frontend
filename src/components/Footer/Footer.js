@@ -1,5 +1,27 @@
 import React from "react";
 
+import "./Footer.css";
+
 export default function Footer() {
-  return <footer className="footer"></footer>;
+  return (
+    <footer className="footer">
+      <p className="footer__text">
+        Учебный проект Яндекс.Практикум х BeatFilm.
+      </p>
+      <div className="footer__bar">
+        <p className="footer__copyright">© 2020</p>
+        <nav className="footer__nav">
+          <a className="footer__link" href="/">
+            Яндекс.Практикум
+          </a>
+          <a className="footer__link" href="/">
+            Github
+          </a>
+          <a className="footer__link" href="/">
+            Telegram
+          </a>
+        </nav>
+      </div>
+    </footer>
+  );
 }

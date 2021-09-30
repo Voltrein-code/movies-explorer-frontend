@@ -11,8 +11,12 @@
   text-decoration: none;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 500;
+  font-weight: 400;
   margin-right: 3px;
+}
+
+.header__button_selected {
+  font-weight: 500;
 }
 
 .header__button_type_register {
@@ -30,10 +34,6 @@
   background-color: #3DDC84;
   margin-left: 10px;
   border-radius: 3px;
-}
-
-.header__button_type_saved-movies {
-  font-weight: 400;
 }
 
 .header__button_type_account {
