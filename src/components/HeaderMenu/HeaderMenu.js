@@ -20,7 +20,7 @@ export default function HeaderMenu() {
             Войти
           </Link>
         </Route>
-        <Route path={["/movies", "/saved-movies"]}>
+        <Route path={["/movies", "/saved-movies", "/profile"]}>
           <Link
             to="/movies"
             className={`header__button header__button_type_movies ${
@@ -39,7 +39,12 @@ export default function HeaderMenu() {
           >
             Сохраненные фильмы
           </Link>
-          <Link to="/" className="header__button header__button_type_account">
+          <Link
+            to="/profile"
+            className={`header__button header__button_type_account ${
+              location.pathname === "/profile" ? "header__button_selected" : ""
+            }`}
+          >
             Аккаунт
           </Link>
           <img

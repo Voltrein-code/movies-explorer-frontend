@@ -1,7 +1,27 @@
-.movies-cardlist {
+.movies-container {
+  margin-top: 49px;
+  margin-bottom: 80px;
+}
+
+.movies-container__list {
   display: grid;
   grid-template-columns: repeat(auto-fill, 364px);
   grid-auto-rows: 271px;
   gap: 30px 24px;
+  padding: 0;
+  margin-top: 109px;
+  margin-bottom: 79px;
+}
 
+.movies-container__more {
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 11px 0 9px;
+  background-color: #2F2F2F;
+  border: 0;
+  color: white;
+  border-radius: 6px;
 }

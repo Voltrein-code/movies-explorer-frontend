@@ -1,0 +1,70 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: all 5000s ease-in-out 0s;
+}
+
+.profile__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 107px;
+}
+
+.profile__hello {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 74px 0 0;
+  text-align: center;
+}
+
+.profile__label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 43px;
+  border-bottom: 1px solid #424242;
+  display: flex;
+  width: 410px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.profile__input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-weight: normal;
+  text-align: right;
+  color: white;
+  width: 100%;
+}
+
+.profile__input_type_error {
+  color: #EE3465;
+}
+
+.profile__button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  width: fit-content;
+  align-self: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.profile__button_type_submit {
+  margin-top: 204px;
+  color: white;
+}
+
+.profile__button_type_signout {
+  margin-top: 16px;
+  color: #EE3465;
+  font-weight: 500;
+}

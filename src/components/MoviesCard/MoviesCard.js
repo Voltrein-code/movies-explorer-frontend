@@ -4,7 +4,7 @@ import "./MoviesCard.css";
 
 export default function MoviesCard(props) {
   return (
-    <article className="movie">
+    <li className="movie">
       <h2 className="movie__title">{props.title}</h2>
       <p className="movie__duration">{props.duration}</p>
       {props.moviesList === "all" ? (
@@ -25,6 +25,6 @@ export default function MoviesCard(props) {
         className="movie__image"
         src={props.movieImage}
       />
-    </article>
+    </li>
   );
 }
