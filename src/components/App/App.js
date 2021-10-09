@@ -9,6 +9,8 @@ import SavedMovies from "../SavedMovies/SavedMovies";
 import NotFoundPage from "../NotFoundPage/NotFoundPage";
 import Profile from "../Profile/Profile";
 import CurrentUserContext from "../../contexts/CurretUserContexts";
+import Login from "../Login/Login";
+import Register from "../Register/Register";
 
 export default function App() {
   // eslint-disable-next-line no-unused-vars
@@ -35,6 +37,10 @@ export default function App() {
           <Route path="/movies" component={Movies} />
 
           <Route path="/saved-movies" component={SavedMovies} />
+
+          <Route path="/signin" component={Login} />
+
+          <Route path="/signup" component={Register} />
 
           <Route
             path="/profile"

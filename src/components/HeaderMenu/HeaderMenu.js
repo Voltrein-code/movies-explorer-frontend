@@ -13,10 +13,16 @@ export default function HeaderMenu() {
     <nav className="header__menu">
       <Switch>
         <Route exact path="/">
-          <Link to="" className="header__button header__button_type_register">
+          <Link
+            to="/signup"
+            className="header__button header__button_type_register"
+          >
             Регистрация
           </Link>
-          <Link to="" className="header__button header__button_type_signin">
+          <Link
+            to="signin"
+            className="header__button header__button_type_signin"
+          >
             Войти
           </Link>
         </Route>
