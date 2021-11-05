@@ -7,8 +7,12 @@
   min-height: 100vh;
 }
 
-.link {
+.link, .button {
   transition: linear .5s;
+}
+
+.button:hover {
+  opacity: 0.8;
 }
 
 .link:hover {

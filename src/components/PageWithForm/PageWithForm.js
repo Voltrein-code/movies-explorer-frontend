@@ -10,10 +10,10 @@ export default function PageWithForm(props) {
       <Logo />
       <h2 className="auth__title">{props.title}</h2>
       {props.children}
-      <button className="auth__submit">{props.submitText}</button>
+      <button className="auth__submit button">{props.submitText}</button>
       <p className="auth__text">
         {props.authText}
-        <Link className="auth__redirection" to={props.authRedirectionTo}>
+        <Link className="auth__redirection link" to={props.authRedirectionTo}>
           {props.authRedirectionText}
         </Link>
       </p>

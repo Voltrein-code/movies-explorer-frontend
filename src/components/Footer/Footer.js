@@ -11,13 +11,13 @@ export default function Footer() {
       <div className="footer__bar">
         <p className="footer__copyright">© 2021</p>
         <nav className="footer__nav">
-          <a className="footer__link" href="/">
+          <a className="footer__link link" href="/">
             Яндекс.Практикум
           </a>
-          <a className="footer__link" href="/">
+          <a className="footer__link link" href="/">
             Github
           </a>
-          <a className="footer__link" href="/">
+          <a className="footer__link link" href="/">
             Telegram
           </a>
         </nav>

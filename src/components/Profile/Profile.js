@@ -66,13 +66,13 @@ export default function Profile(props) {
           </label>
           <span className="profile__error"></span>
           <button
-            className="profile__button profile__button_type_submit"
+            className="profile__button profile__button_type_submit button"
             type="submit"
           >
             Редактировать
           </button>
           <button
-            className="profile__button profile__button_type_signout"
+            className="profile__button profile__button_type_signout button"
             type="button"
           >
             Выйти из профиля

@@ -95,7 +95,7 @@ export default function MoviesCardList(props) {
           moviesList={props.moviesList}
         />
       </ul>
-      <button className="movies-container__more">Ещё</button>
+      <button className="movies-container__more button">Ещё</button>
     </section>
   );
 }

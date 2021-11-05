@@ -9,14 +9,14 @@ export default function MoviesCard(props) {
       <p className="movie__duration">{props.duration}</p>
       {props.moviesList === "all" ? (
         <button
-          className={`movie__button movie__button_type_save ${
+          className={`movie__button movie__button_type_save button ${
             props.isMovieSaved ? "movie__button_type_saved" : ""
           }`}
           type="button"
         />
       ) : (
         <button
-          className="movie__button movie__button_type_delete"
+          className="movie__button movie__button_type_delete button"
           type="button"
         />
       )}

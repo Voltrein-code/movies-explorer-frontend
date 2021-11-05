@@ -15,13 +15,13 @@ export default function HeaderMenu() {
         <Route exact path="/">
           <Link
             to="/signup"
-            className="header__button header__button_type_register"
+            className="header__button header__button_type_register button"
           >
             Регистрация
           </Link>
           <Link
             to="signin"
-            className="header__button header__button_type_signin"
+            className="header__button header__button_type_signin button"
           >
             Войти
           </Link>
@@ -29,7 +29,7 @@ export default function HeaderMenu() {
         <Route path={["/movies", "/saved-movies", "/profile"]}>
           <Link
             to="/movies"
-            className={`header__button header__button_type_movies ${
+            className={`header__button header__button_type_movies button ${
               location.pathname === "/movies" ? "header__button_selected" : ""
             }`}
           >
@@ -37,7 +37,7 @@ export default function HeaderMenu() {
           </Link>
           <Link
             to="/saved-movies"
-            className={`header__button header__button_type_saved-movies ${
+            className={`header__button header__button_type_saved-movies button ${
               location.pathname === "/saved-movies"
                 ? "header__button_selected"
                 : ""
@@ -47,7 +47,7 @@ export default function HeaderMenu() {
           </Link>
           <Link
             to="/profile"
-            className={`header__button header__button_type_account ${
+            className={`header__button header__button_type_account button ${
               location.pathname === "/profile" ? "header__button_selected" : ""
             }`}
           >
