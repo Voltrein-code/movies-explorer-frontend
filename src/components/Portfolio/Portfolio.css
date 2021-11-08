@@ -45,6 +45,7 @@
 @media screen and (max-width: 768px) {
   .portfolio {
     max-width: 668px;
+    padding: 0 0 71px;
   }
 
   .portfolio__title {
