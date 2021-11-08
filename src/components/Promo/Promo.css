@@ -17,6 +17,19 @@
   line-height: 58px;
   margin: 0;
   letter-spacing: -0.04em;
-  width: 730px;
+  max-width: 730px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .promo {
+    width: 728px;
+  }
+
+  .promo__title {
+    font-size: 40px;
+    line-height: 52px;
+    max-width: 680px;
+    padding: 350px 0 314px;
+  }
 }
