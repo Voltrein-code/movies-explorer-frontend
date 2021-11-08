@@ -8,6 +8,8 @@ import Portfolio from "../Portfolio/Portfolio";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
+import "./Main.css";
+
 export default function Main() {
   return (
     <>
