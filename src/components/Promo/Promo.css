@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1200px;
+  max-width: 1200px;
   background-color: #272727;
   border-radius: 10px;
   margin: auto;
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
   .promo {
-    width: 728px;
+    max-width: 728px;
   }
 
   .promo__title {
