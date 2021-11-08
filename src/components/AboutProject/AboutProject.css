@@ -1,7 +1,7 @@
 .about-project {
   margin: auto;
   padding: 87px 0 110px 0;
-  width: 1140px;
+  max-width: 1140px;
 }
 
 .about-project__title {
@@ -15,7 +15,7 @@
 .project {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
   align-items: center;
   margin-top: 70px;
 }
@@ -25,7 +25,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 40px 0 0;
 }
 
 .project-article__title {
@@ -89,4 +88,28 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about-project {
+    max-width: 668px;
+    padding: 67px 0 90px 0;
+  }
+
+  .project {
+    gap: 30px;
+  }
+
+  .project-article__title {
+    margin: 0 0 22px;
+  }
+
+  .project-article__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .project-deadlines {
+    margin-top: 93px;
+  }
 }
