@@ -1,6 +1,7 @@
 .portfolio {
+  max-width: 1140px;
   margin: auto;
-  padding: 0 70px 106px;
+  padding: 0 0 106px;
 }
 
 .portfolio__title {
@@ -39,4 +40,23 @@
   background-position: right;
   background-repeat: no-repeat;
   display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    max-width: 668px;
+  }
+
+  .portfolio__title {
+    margin: 0 0 50px;
+  }
+
+  .portfolio__links-item:not(:last-child){
+    border-bottom: 1px solid #E6E6E6;
+  }
+
+  .portfolio__link {
+    font-size: 28px;
+    line-height: 88px;
+  }
 }
