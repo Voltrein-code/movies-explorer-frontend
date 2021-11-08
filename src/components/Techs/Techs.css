@@ -9,8 +9,7 @@
 
 .techs__container {
   margin: 0;
-  width: 1140px;
-  padding: 0 70px 0;
+  max-width: 1140px;
 }
 
 .techs__title {
@@ -66,3 +65,28 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .techs {
+    padding: 67px 0 90px 0;
+  }
+
+  .techs__container {
+    max-width: 668px;
+  }
+
+  .techs__title {
+    margin: 0 0 80px 0;
+  }
+
+  .text__text {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 83px 0;
+  }
+
+  .techs__list-item {
+    width: 84px;
+    height: 57px;
+    line-height: 16px;
+  }
+}
